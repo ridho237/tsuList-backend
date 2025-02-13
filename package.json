@@ -1,0 +1,29 @@
+{
+	"name": "animelist-v2-backend",
+	"version": "1.0.0",
+	"main": "index.js",
+	"engines": {
+		"node": "20.x"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon index.js"
+	},
+	"keywords": [],
+	"author": "Muhammad Ridho",
+	"license": "ISC",
+	"description": "Ini Bagian Backend",
+	"dependencies": {
+		"@vercel/blob": "^0.27.1",
+		"bcrypt": "^5.1.1",
+		"cookie-parser": "^1.4.7",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.21.1",
+		"formidable": "^3.5.2",
+		"jsonwebtoken": "^9.0.2",
+		"mongodb": "^6.13.0",
+		"mongoose": "^8.8.3",
+		"nodemon": "^3.1.7"
+	}
+}
